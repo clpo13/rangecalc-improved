@@ -50,6 +50,7 @@ coverage.xml
 *.log
 *.pot
 secret_key.txt
+staticfiles
 
 # Sphinx documentation
 docs/_build/
