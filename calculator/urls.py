@@ -1,5 +1,6 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import include, url
+from calculator.views import index
 
-urlpatterns = patterns('',
-    url(r'^$', 'calculator.views.index'),
-)
+urlpatterns = [
+    url(r'^$', index, name='index'),
+]
