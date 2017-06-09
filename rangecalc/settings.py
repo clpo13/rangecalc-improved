@@ -22,11 +22,13 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
 	SECRET_KEY = f.read().strip()
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ['*']
 TEMPLATE_DEBUG = True
 
-#ALLOWED_HOSTS = ['.nativeforeigner.com'
-#]
+ALLOWED_HOSTS = [
+        '.nativeforeigner.com',
+        'localhost'
+]
 
 
 # Application definition
