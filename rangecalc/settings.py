@@ -27,7 +27,8 @@ TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = [
         '.nativeforeigner.com',
-        'localhost'
+        'localhost',
+        'rangecalc-improved.herokuapp.com',
 ]
 
 
